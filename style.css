@@ -1,0 +1,129 @@
+.navbar{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+}
+h1{
+    color: green;
+font: bolder;
+}
+body{ 
+    text-align: center;
+    background: peachpuff;}
+    .fullCard {
+        width: 165px;
+        border: 5px solid #000000;
+        border-radius: 15px;
+        margin: auto;
+        padding: 10px;}
+h2{
+    text-align: center;
+    font-size: 75%;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+#photo{
+    height: 25%;
+    width: 25%;
+}
+h3{ 
+    font-size: large;
+}
+@media (max-width: 390px){
+
+    img{
+        width: 50vw;
+    }
+}
+.fullCard {
+    width: 165px;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;}
+
+img.eiu {
+    height: 50%;
+    width: 50%;
+}
+img.nogo {
+    height: 100%;
+    width: 100%;
+}
+img.eagle {
+    height: 80%;
+    width: 80%;
+}
+img.east {
+    height: 100%;
+    width: 100%;
+}
+img.heimer {
+    height: 100%;
+    width: 100%;
+}
+img.sing {
+    height: 100%;
+    width: 100%;
+}
+img.cinema {
+    height: 100%;
+    width: 100%;
+}
+img.candles {
+    height: 100%;
+    width: 100%;
+}
+img.tacos {
+    height: 100%;
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 60px;
+    /* background-color: #2196F3; */ */
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .grid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */ */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  p{
+    font-size: 50%;
+  }
+  .bold { 
+font-size: large;
+font-weight: bolder;
+text-shadow: 1px 1px;
+  }
+
+.under {
+    font-size: small;
+    font-style: italic;
+}
